@@ -131,8 +131,10 @@ function waitAndResponce(inputText) {
             break;
         case "what is her birthday date":
             sendTextMessage("that chandru knows very well its nov 5 2003");
+            break;
          case "what is her fav colour":
             sendTextMessage("always black");
+            break;
         case "hello":
             sendTextMessage("Hello there 👋🏻 welcome to chandru chat");
             sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about me...<br>e.g<br><span class='bold'>'skills'</span> - to know my skills<br><span class='bold'>'resume'</span> - to get my resume<br><span class='bold'>'education'</span> - to get my education details<br><span class='bold'>'contact'</span> - to get ways to connect with me<br><span class='bold'>'projects'</span> - to get details of my projects<br><span class='bold'>'clear'</span> - to clear conversation<br>");
