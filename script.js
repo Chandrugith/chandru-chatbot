@@ -82,7 +82,7 @@ function waitAndResponce(inputText) {
     switch (inputText.toLowerCase().trim()) {
         case "intro":
             setTimeout(() => {
-                sendTextMessage("Hello there 👋🏻,<br><br>My name is <span class='bold'><a class='alink'>chandru</a>.</span><br><br>I am a Computer Engineering student at <span class='bold'>Muthayammal engineering college information technology </span><br><br>I am eager to hear about potential career opportunities, so I would be pleased to chat about job openings in the engineering sphere.<br><br>Send <span class='bold'>'help'</span> to know more about me.<br>");
+                sendTextMessage("Hello there 👋🏻,<br><br>My name is <span class='bold'><a class='alink'>chandru</a>.</span><br><br>I am a IT student at <span class='bold'>Muthayammal engineering college information technology </span><br><br>I am eager to hear about potential career opportunities, so I would be pleased to chat about job openings in the engineering sphere.<br><br>Send <span class='bold'>'help'</span> to know more about me.<br>");
             }, 2000);
             break;
         
@@ -135,6 +135,20 @@ function waitAndResponce(inputText) {
          case "what is her fav colour":
             sendTextMessage("always black");
             break;
+        case "what is your birthday date":
+            sendTextMessage("its 23 feb 2004");
+            break;
+        case "what is your fav colour":
+            sendTextMessage("white");
+            break;
+        case "how much you love her":
+            sendTextMessage("i think already you know the answer but its ok i say you its infinity level");
+            break;
+        
+        case "what are the signs of a healthy relationship":
+            sendTextMessage("Healthy relationships involve open communication, mutual respect, trust, and support. Both partners feel heard and valued. It's important to address conflicts constructively and grow together.");
+            break;
+            
         case "hello":
             sendTextMessage("Hello there 👋🏻 welcome to chandru chat");
             sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about me...<br>e.g<br><span class='bold'>'skills'</span> - to know my skills<br><span class='bold'>'resume'</span> - to get my resume<br><span class='bold'>'education'</span> - to get my education details<br><span class='bold'>'contact'</span> - to get ways to connect with me<br><span class='bold'>'projects'</span> - to get details of my projects<br><span class='bold'>'clear'</span> - to clear conversation<br>");
